@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Imagem com &lt;map&gt; e &lt;area&gt;</title>
+    <link rel="stylesheet" href= "link.css">
+</head>
+<body>
+
+    <!-- 
+    A tag <map> é usada para criar um "mapa de imagem", ou seja,
+    áreas clicáveis dentro de uma imagem.
+    O atributo name é obrigatório para relacionar o <map> com a <img>.
+    -->
+
+    <!-- Imagem com mapa -->
+    <img src="img/link_mapas.png" alt="Mapa do Brasil" usemap="#mapaBrasil"> 
+
+    <!-- Mapa de áreas clicáveis -->
+    <map name="mapaBrasil">
+        <!-- Exemplo: Retângulo-->
+        <area alt="Amazônia" shape="rect" coords="1081,324,1121,364" href="https://pt.wikipedia.org/wiki/Amaz%C3%B4nia" target="_blank">
+    </map>
+
+</body>
+</html>
